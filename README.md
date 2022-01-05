@@ -22,3 +22,9 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+TO DO 
+-hem in resources in routes
+-add users by name instead of id
+-add drop down for method
+-add login in perhaps with Devise
