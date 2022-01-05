@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  dateAndTime: 2022-01-05 10:10:19
+  user: one
+  method: MyString
+  strain: MyString
+
+two:
+  dateAndTime: 2022-01-05 10:10:19
+  user: two
+  method: MyString
+  strain: MyString

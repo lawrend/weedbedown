@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Ingestions</h1>
+
+<div id="ingestions">
+  <% @ingestions.each do |ingestion| %>
+    <%= render ingestion %>
+    <p>
+      <%= link_to "Show this ingestion", ingestion %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New ingestion", new_ingestion_path %>
