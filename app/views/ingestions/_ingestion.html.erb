@@ -1,12 +1,12 @@
 <div id="<%= dom_id ingestion %>">
   <p>
-    <strong>Dateandtime:</strong>
+    <strong>Date and Time:</strong>
     <%= ingestion.dateAndTime %>
   </p>
 
   <p>
     <strong>User:</strong>
-    <%= ingestion.user_id %>
+    <%= User.find(ingestion.user_id).name %>
   </p>
 
   <p>
