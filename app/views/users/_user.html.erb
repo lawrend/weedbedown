@@ -1,7 +1,15 @@
 <div id="<%= dom_id user %>">
   <p>
-    <strong>Name:</strong>
-    <%= user.name %>
+  <strong>Name:</strong>
+  <%= user.name %>
   </p>
+  <div id="ingestions">
+    <% user.ingestions.each do |i| %>
+      <%= render i %>
+      <p>
+      <%= link_to "Show this ingestion", i %>
+      </p>
+    <% end %>
+  </div>
 
 </div>
